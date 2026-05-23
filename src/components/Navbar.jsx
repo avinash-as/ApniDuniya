@@ -15,7 +15,9 @@ const Navbar = () => {
   return (
     <div className='fixed top-0 left-0 z-50 w-full flex items-center justify-between px-6 md:px-16 lg:px-36 py-5'>
       <Link to='/' className='max-md:flex-1'>
-         <img src={assets.logo} alt="" className='w-36 h-auto'/>
+    <h1 className='text-3xl font-extrabold bg-gradient-to-r from-red-500 to-yellow-400 bg-clip-text text-transparent'>
+  ApniDuniya
+</h1> 
       </Link>
 
       <div className={`max-md:absolute max-md:top-0 max-md:left-0 max-md:font-medium max-md:text-lg z-50 flex flex-col md:flex-row items-center max-md:justify-center gap-8 min-md:px-8 py-3 max-md:h-screen min-md:rounded-full backdrop-blur bg-black/70 md:bg-white/10 md:border border-gray-300/20 overflow-hidden transition-[width] duration-300 ${isOpen ? 'max-md:w-full' : 'max-md:w-0'}`}>
@@ -38,7 +40,7 @@ const Navbar = () => {
             ) : (
               <UserButton>
                 <UserButton.MenuItems>
-                   <UserButton.Action label="My Bookings" labelIcon={<TicketPlus width={15}/>} onClick={()=>Navigate('/my-bookings')}/>
+                   <UserButton.Action label="My Bookings" labelIcon={<TicketPlus width={15}/>} onClick={()=>navigate('/my-bookings')}/>
                 </UserButton.MenuItems>
               </UserButton>
             )
