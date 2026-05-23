@@ -1,16 +1,106 @@
-# React + Vite
+# ApniDuniya
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ApniDuniya is a full-stack movie ticket booking web application where users can browse movies, check show timings, select seats, and manage bookings.
 
-Currently, two official plugins are available:
+> 🚧 This project is currently under development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🎬 Browse latest movies
+* 🕒 Show timings display
+* 💺 Interactive seat selection
+* ❤️ Favorite movies section
+* 📱 Responsive UI
+* 🔐 Authentication using Clerk
+* ⚡ Built with React + Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+### Frontend
+
+* React.js
+* Vite
+* Tailwind CSS
+* React Router DOM
+* Lucide React Icons
+* Clerk Authentication
+
+### Backend
+
+* Node.js
+* Express.js
+* MongoDB (planned/in progress)
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/avinash-as/ApniDuniya.git
+```
+
+Move into project folder:
+
+```bash
+cd ApniDuniya
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Project Status
+
+This project is actively being developed.
+
+Upcoming features:
+
+* Payment gateway integration
+* Real backend APIs
+* Database integration
+* Admin dashboard
+* Real movie data
+* Booking history
+* Ticket generation
+
+---
+
+## Screenshots
+
+Screenshots will be added soon.
+
+---
+
+## Contributing
+
+Currently this is a personal project, but contributions and suggestions are welcome.
+
+---
+
+## Author
+
+**Avinash**
+
+GitHub: [https://github.com/avinash-as](https://github.com/avinash-as)
+
+---
+
+## License
+
+This project is for learning and development purposes.
